@@ -1,0 +1,93 @@
+{
+  "backend": "Cactus Needle native CPU engine with released whistle.cact",
+  "package_version": "3.2.1",
+  "startup_seconds_no_download": 0.061483779005357064,
+  "short_smoke_nonempty": true,
+  "long_transcription_nonempty": true,
+  "cases": [
+    {
+      "name": "smoke",
+      "audio_seconds": 11.0,
+      "first_call_seconds": 3.1745791580033256,
+      "warm_call_seconds": [
+        1.8677802579913987,
+        1.632984893003595
+      ],
+      "warm_median_seconds": 1.7503825754974969,
+      "warm_rtf": 0.15912568868159063,
+      "text": "And so, my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": 0.0
+    },
+    {
+      "name": "10s",
+      "audio_seconds": 10.0,
+      "first_call_seconds": 1.8443231889978051,
+      "warm_call_seconds": [
+        2.9071952030062675,
+        3.4180620269908104
+      ],
+      "warm_median_seconds": 3.162628614998539,
+      "warm_rtf": 0.3162628614998539,
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel. Nor is Mr. Quilter's manner less interesting than his.",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": null
+    },
+    {
+      "name": "30s",
+      "audio_seconds": 30.0,
+      "first_call_seconds": 7.740859905999969,
+      "warm_call_seconds": [
+        5.4880304529942805,
+        6.1761695530003635
+      ],
+      "warm_median_seconds": 5.832100002997322,
+      "warm_rtf": 0.19440333343324406,
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel. Nor is Mr. Quilter's manner less interesting than his matter. He tells us that at this festive season of the year, with Christmas and Rose Beef looming before us, similees drawn from eating and its results occur most readily to the mind. He has graved doubts whether Sir Frederick Latin's work is really Greek after all.",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": null
+    },
+    {
+      "name": "60s",
+      "audio_seconds": 60.0,
+      "first_call_seconds": 13.184891204989981,
+      "warm_call_seconds": [
+        15.744601182988845,
+        19.048743298990303
+      ],
+      "warm_median_seconds": 17.396672240989574,
+      "warm_rtf": 0.2899445373498262,
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel. Nor is Mr. Quilter's manner less interesting than his matter. He tells us that at this festive season of the year, with Christmas and Rose Beef looming before us, similees drawn from eating and its results occur most readily to the mind. He has graved doubts whether Sir Frederick Latin's work is really Greek after all. and can discover in it but little of Rocky Ithaca. Lenell's pictures are a sort of upguards and atom paintings, and Mason's exquisite idols are as national as a Jingo poem. Mr. Burkitt Foster's landscapes smile at one much in the same way that Mr. Karker used to flash his teeth. And Mr. John Caudier gives his sitter a cheerful slap on the back before he says like a",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": null
+    },
+    {
+      "name": "long",
+      "audio_seconds": 133.22,
+      "first_call_seconds": 44.48365483499947,
+      "warm_call_seconds": [
+        32.537396810002974,
+        45.11065669100208
+      ],
+      "warm_median_seconds": 38.824026750502526,
+      "warm_rtf": 0.29142791435597154,
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel. Nor is Mr. Quilter's manner less interesting than his matter. He tells us that at this festive season of the year, with Christmas and Rose Beef looming before us, similees drawn from eating and its results occur most readily to the mind. He has graved doubts whether Sir Frederick Latin's work is really Greek after all. and can discover in it but little of Rocky Ithaca. Lenell's pictures are a sort of upguards and atom paintings, and Mason's exquisite idols are as national as a Jingo poem. Mr. Burkitt Foster's landscapes smile at one much in the same way that Mr. Karker used to flash his teeth. And Mr. John Caudier gives his sister a cheerful slap on the back. Before he says, like a shampooer in a Turkish bath, next man, it is obviously unnecessary for us to point out how luminous these criticisms are, how delicate and expression. On the general principles of art, Mr. Cruelter writes with equal lucidity. Painting, he tells us, is of a different quality to mathematics, and finish in art is adding more fact. As for Echings, there are two kinds, British and foreign. He laments most bitterly the divorce that has been made between Decorative Art and what we usually call pictures. Makes a customary appeal to the last judgment and reminds us that in the great days of art Michael Angelo was the furnishing appulsterer. Near the fire, and the ornaments Fred brought home from India on the mental board. In fact, he is quite severe on Mr. Ruskin, for not recognising that \"a picture should denote the frailty of man,\" and remarks with pleasing courtesy in fullness of his grace that \"many phases of feeling.\"",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": 0.08441558441558442
+    }
+  ],
+  "process_peak_rss_mib": 125.19921875,
+  "gpu_sampling": {
+    "pid": 927203,
+    "process_vram_peak_mib": null,
+    "process_sm_peak_pct": null,
+    "process_mem_peak_pct": null,
+    "process_pmon_samples": 0
+  },
+  "created_utc": "2026-10-20T08:06:41.794939+00:00"
+}

@@ -1,0 +1,114 @@
+{
+  "backend": "Cactus Whistle JAX reference model with Cactus quantization helpers on CUDA",
+  "package_version": "3.2.1",
+  "jax_version": "0.12.0",
+  "jax_default_backend": "gpu",
+  "gpu_devices": [
+    "cuda:0"
+  ],
+  "compute_dtype": "float32",
+  "flash_attention": false,
+  "weight_quantization_bits": 4,
+  "startup_seconds_no_download": 15.869040076999227,
+  "short_smoke_nonempty": true,
+  "long_transcription_nonempty": true,
+  "profile_trace_directory": "results/profiles/whistle-jax-20261020-100732",
+  "cases": [
+    {
+      "name": "smoke",
+      "audio_seconds": 11.0,
+      "first_call_seconds": 8.262789665997843,
+      "warm_call_seconds": [
+        0.3222167559870286,
+        0.2826367909874534
+      ],
+      "warm_median_seconds": 0.302426773487241,
+      "warm_rtf": 0.027493343044294637,
+      "text": "And so my fellow Americans ask not what your country can do for you as what you can do for your country.",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": 0.045454545454545456
+    },
+    {
+      "name": "10s",
+      "audio_seconds": 10.0,
+      "first_call_seconds": 0.4769567460025428,
+      "warm_call_seconds": [
+        0.4824491570034297,
+        0.45068005500070285
+      ],
+      "warm_median_seconds": 0.4665646060020663,
+      "warm_rtf": 0.04665646060020663,
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel. Nor is Mr. Quilter's manner less interesting than his.",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": null
+    },
+    {
+      "name": "30s",
+      "audio_seconds": 30.0,
+      "first_call_seconds": 4.060783692009863,
+      "warm_call_seconds": [
+        1.2788878560095327,
+        1.5659972460125573
+      ],
+      "warm_median_seconds": 1.422442551011045,
+      "warm_rtf": 0.047414751700368164,
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel. Nor is Mr. Quilter's manner less interesting than his matter. He tells us that at this festival season of the year, with Christmas and Rose Beef looming before us, similees drawn from eating and its results occur most readily to the mind. He has graved doubts whether Sir Frederick Latin's work is ready Greek after all.",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": null
+    },
+    {
+      "name": "60s",
+      "audio_seconds": 60.0,
+      "first_call_seconds": 6.015478639994399,
+      "warm_call_seconds": [
+        3.347646494003129,
+        2.9715673429891467
+      ],
+      "warm_median_seconds": 3.159606918496138,
+      "warm_rtf": 0.052660115308268966,
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel. Nor is Mr. Quilter's manner less interesting than his matter. He tells us that at this festival season of the year, with Christmas and Rose Beef looming before us, similees drawn from eating and its results occur most readily to the mind. He has graved doubts whether Sir Frederick Latin's work is ready Greek after all. and can discover in it but little of Rocky Ithaca. Linnell's pictures are a sort of upguards and atom paintings, and Mason's exquisite idols are as national as a jingo poem. Mr. Burke, fostered landscapes, smile at one much in the same way that Mr. Carter used to flash his teeth, and Mr. John Caudier gives his sister a cheerful slap on the back, before he says like a \"f.\"",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": null
+    },
+    {
+      "name": "long",
+      "audio_seconds": 133.22,
+      "first_call_seconds": 5.754992029993446,
+      "warm_call_seconds": [
+        6.43877668499772,
+        5.377130421999027
+      ],
+      "warm_median_seconds": 5.907953553498373,
+      "warm_rtf": 0.04434734689609948,
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel. Nor is Mr. Quilter's manner less interesting than his matter. He tells us that at this festival season of the year, with Christmas and Rose Beef looming before us, similees drawn from eating and its results occur most readily to the mind. He has graved doubts whether Sir Frederick Latin's work is ready Greek after all. and can discover in it but little of Rocky Ithaca. Linnell's pictures are a sort of upguards and atom paintings, and Mason's exquisite idols are as national as a jingo poem. Mr. Burke, fostered landscapes, smile at one much in the same way that Mr. Carter used to flash his teeth, and Mr. John Caudier gives his sister a cheerful slap on the back, before he says like a \"f.\" Champouler and a Turkish bath. Next man, it is obviously unnecessary for us to point out how luminous these criticisms are, how delicate in expression. On the general principles of art, Mr. Quilter writes with equal lucidity. Painting, he tells us, is of a dover in quality to mathematics, and finish in art is adding more fact. As for etchings, their of two kinds, British and foreign. He laments most bitterly the divorce that has been made between decorative art and what we usually call pictures, makes a customary appeal to the last judgment and reminds us that in the great days of art Michael Angelo was the furnishing upholsterer. Near the fire, and the ornaments, Fred brought home from India on the mantel board. In fact, he is quite Severe on Mr. Ruskin, for not recognising that a picture should denote the frailty of man. And remarks was pleasing courtesy and fulfilled his grace that \"many phases of feeling.\"",
+      "language": "en",
+      "nonempty_transcription": true,
+      "reference_wer": 0.09090909090909091
+    }
+  ],
+  "process_peak_rss_mib": 3052.6171875,
+  "created_utc": "2026-10-20T08:08:34.755991+00:00",
+  "gpu_sampling": {
+    "pid": 941525,
+    "process_vram_peak_mib": 1154.0,
+    "process_sm_peak_pct": 76.0,
+    "process_mem_peak_pct": 29.0,
+    "process_pmon_samples": 75
+  },
+  "cuda_inference_verified": true,
+  "cuda_evidence": {
+    "per_process_gpu_monitor": "nvidia-smi pmon -s um -d 1",
+    "process_sm_peak_pct": 76.0,
+    "process_peak_vram_mib": 1154.0,
+    "profile_trace_directory": "results/profiles/whistle-jax-20261020-100732",
+    "profile_trace_files": [
+      "results/profiles/whistle-jax-20261020-100732/plugins/profile/2026_10_20_10_07_44/dcpc.xplane.pb",
+      "results/profiles/whistle-jax-20261020-100732/plugins/profile/2026_10_20_10_07_44/dcpc.trace.json.gz"
+    ],
+    "profiler_start_error": null
+  }
+}
