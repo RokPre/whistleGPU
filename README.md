@@ -83,6 +83,10 @@ One engine holds both models: `needle_load` reads whichever one a `.cact` carrie
 
 The benchmarks against Whisper and Moonshine, the architecture and the interactive demo are at [cactuscompute.com/whistle](https://cactuscompute.com/whistle); the weights and every platform engine are on [Hugging Face](https://huggingface.co/Cactus-Compute/whistle).
 
+### Experimental NVIDIA GPU reference inference
+
+The `.cact` and native C++ inference route above remains the CPU path. The `[gpu]` extra enables CUDA JAX for training/reference code; it does not make the native `libneedle` inference engine run on NVIDIA. This repository now includes a separate experimental JAX transcription path using the released `whistle.safetensors` weights and Cactus's W4 quantization helpers. It does not compile or port the native engine. See the [reproducible Whistle CUDA experiment](research/whistle-gpu/README.md) for setup, integration checks, hardware, measured results and limitations.
+
 Whistle fine-tunes locally: LoRA adapters on the attention projections, base frozen, merged at export, 4-bit. It takes training, validation and test JSONL files, each line `{"audio": "clip.wav", "text": "...", "language": "pt"}`; a language code outside the seven adds that language, and `--tokens` takes a file of words or characters to add to the vocabulary, one per line.
 
 ```sh

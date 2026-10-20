@@ -95,3 +95,6 @@ needle-ui.*
 *.vocab 
 *.model
 *.cact
+/research/whistle-gpu/.tmp/
+/research/whistle-gpu/results/profiles/
+/research/whistle-gpu/results/gpu_failure.json

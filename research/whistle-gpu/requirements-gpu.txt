@@ -1,0 +1,4 @@
+# Constraints for installing the checkout with its [train,gpu] extra.
+jax==0.12.0
+jaxlib==0.12.0
+nvidia-cudnn-cu12==9.10.2.21
